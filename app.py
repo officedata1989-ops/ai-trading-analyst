@@ -765,7 +765,14 @@ elif section == "Backtesting":
                     "Costs are approximate; taxes, exact brokerage, "
                     "market impact and all execution effects may differ."
                 )
+# ---------------------------------
+# F&O BACKTESTING
+# ---------------------------------
 
+st.divider()
+st.header("F&O CSV Backtesting")
+
+render_fo_backtest()
 # ---------------------------------
 # FOOTER
 # ---------------------------------
