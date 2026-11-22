@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import yfinance as yf
+from fo_backtest import render_fo_backtest
 
 st.set_page_config(
     page_title="AI Trading Analyst",
